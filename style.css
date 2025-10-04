@@ -1,0 +1,163 @@
+body{
+    padding: 400px;
+    background-color: yellow;
+    color: #000;
+    padding-top: 200px;
+    margin-top: -200px;
+}
+h1{
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+.row-1{
+    display: flex;
+    
+}
+.r1{
+   height: 100px;
+   width: 100px;
+   margin-right: 50px;
+   margin-left: 30px;
+   margin-bottom: 50px;
+   background-color: teal;
+   animation-name: transform1;
+   animation-duration: 4s;
+   animation-iteration-count: infinite; 
+}
+@keyframes transform1{
+    0%{
+        transform: skewX(20deg);
+    }
+    50%{
+        transform: skewX(-20deg);
+    }
+    100%{
+        transform: skewX(20deg);
+    }
+}
+/* row2 */
+.row-2{
+    display: flex;
+    
+}
+.r2{
+    height: 100px;
+   width: 100px;
+   margin-right: 50px;
+   margin-left: 30px;
+   margin-bottom: 50px;
+   background-color: darkslategrey;
+   animation-name: transform2;
+   animation-duration: 4s;
+   animation-iteration-count: infinite; 
+}
+@keyframes transform2{
+    0%{
+        transform: skewX(30deg);
+    }
+    50%{
+        transform: skewX(-30deg);
+    }
+    100%{
+        transform: skewX(30deg);
+    }
+}
+/* row 3*/
+.row-3{
+    display: flex;
+
+}
+.r3{
+      height: 100px;
+   width: 100px;
+   margin-right: 50px;
+   margin-left: 30px;
+   margin-bottom: 50px;
+   background-color: teal;
+   animation-name: rotate;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+/* row 4 */
+.row-4{
+    display: flex;
+    
+}
+.r41{
+     height: 100px;
+   width: 100px;
+   margin-right: 50px;
+   margin-left: 30px;
+   margin-bottom: 50px;
+   background-color: lightskyblue;
+   animation-name: scaley;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+}
+@keyframes scaley{
+    0%{
+        transform: scaleY(1.0);
+    }
+    50%{
+        transform: scaleY(0.5);
+    }
+    100%{
+        transform: scaleY(1.0);
+    }
+}
+.r42{
+      height: 100px;
+   width: 100px;
+   margin-right: 50px;
+   margin-left: 30px;
+   margin-bottom: 50px;
+   background-color: brown;
+   animation-name: scalex;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+}
+@keyframes scalex{
+    0%{
+        transform: scaleX(1.0);
+    }
+    50%{
+        transform: scaleX(0.5);
+    }
+    100%{
+        transform: scaleX(1.0);
+    }
+}
+.r43{
+       height: 100px;
+   width: 100px;
+   margin-right: 50px;
+   margin-left: 30px;
+   margin-bottom: 50px;
+   background-color: green;
+   animation-name: rotate2;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+}
+@keyframes rotate2{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+a{
+    font-size: 30px;
+    margin-left: 100px;
+}
